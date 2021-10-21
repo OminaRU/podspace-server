@@ -19,7 +19,7 @@ export default class HelloWorldRoute extends BaseRoute<HelloWorldResult> {
   async content(): Promise<HelloWorldResult> {
     return {
       message: 'Looks like the server is up and running!',
-      podmates: ['Keon Jeffers-Alleyne'] // AYEEEEEEEE!
+      podmates: ['Omina Elsheikh', 'Keon Jeffers-Alleyne'] // AYEEEEEEEE!
     };
   }
 }
